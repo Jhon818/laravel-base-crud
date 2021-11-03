@@ -33,6 +33,18 @@
                         <label for="type">thumb</label>
                         <input type="text" name="thumb" class="form-control" id="thumb" placeholder="Enter">
                     </div>
+                    <div class="form-group">
+                        <label for="type">price</label>
+                        <input type="text" name="price" class="form-control" id="price" placeholder="Enter">
+                    </div>
+                    <div class="form-group">
+                        <label for="type">series</label>
+                        <input type="text" name="series" class="form-control" id="series" placeholder="Enter">
+                    </div>
+                    <div class="form-group">
+                        <label for="type">sale date</label>
+                        <input type="text" name="sale_date" class="form-control" id="sale_date" placeholder="Enter">
+                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>

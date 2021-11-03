@@ -1,6 +1,6 @@
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="{{ route('home-page') }}">Le mie Paste</a>
+        <a class="navbar-brand" href="{{ route('home-page') }}">I comics</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -10,10 +10,10 @@
               <a class="nav-link" href="{{ route('home-page') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('comics.create')}}">Inserisci una pasta</a>
+              <a class="nav-link" href="{{ route('comics.create')}}">Inserisci un comic</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('comics.index') }}">Lista delle paste</a>
+              <a class="nav-link" href="{{ route('comics.index') }}">Lista</a>
             </li>
           </ul>
         </div>
