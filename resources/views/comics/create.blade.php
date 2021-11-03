@@ -20,10 +20,6 @@
                         <label for="type">Type</label>
                         <input type="text" name="type" class="form-control" id="type" placeholder="Entertype">
                     </div>
-                    <div class="form-group">
-                        <label for="image">Image</label>
-                        <input type="text" name="image" class="form-control" id="image" placeholder="Entervimage">
-                    </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
