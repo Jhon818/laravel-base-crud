@@ -29,8 +29,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="sale_date">Sale Date</label>
-                        <input value="{{ $comic['sale_date'] }}" type="text" name="sale_date" class="form-control" id="sale_date" placeholder="Enter comic sale_date">
+                        <label for="thumb">img</label>
+                        <input value="{{ $comic['thumb'] }}" type="text" name="thumb" class="form-control" id="thumb" placeholder="Enter comic sale_date">
                     </div>
                     <div class="form-group">
                         <label for="price">price</label>

@@ -38,9 +38,14 @@ class ComicController extends Controller
     {
         $data = $request->all();
 
-        $new_pasta = new Comic();
-        $new_pasta->fill($data);
-        $new_pasta->save();
+        $request->validate([
+            'title' => 'required|unique:comics|max:50',
+            'type' => 'required|max:20'
+        ]);
+
+        $new_comic = new Comic();
+        $new_comic->fill($data);
+        $new_comic->save();
 
         return redirect()->route('comics.index');
     }
